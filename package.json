@@ -1,0 +1,22 @@
+{
+  "name": "news-homepage-main",
+  "version": "1.0.0",
+  "description": "Frontend mentor challenge news-homepage-main",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azyepes/news-homepage-main.git"
+  },
+  "author": "Luis Yps Fdez <lyepes.developer@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azyepes/news-homepage-main/issues"
+  },
+  "homepage": "https://github.com/azyepes/news-homepage-main#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}

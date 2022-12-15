@@ -1,12 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./docs/*.{html,js}"], //./docs/**/*.{html,js}
+  content: ["./**/*.{html,js}"], //./docs/**/*.{html,js}
   theme: {
     extend: {
       backgroundImage: {
-        'pc': "url('../assets/images/image-retro-pcs.jpg')",
-        'laptop': "url('../assets/images/image-top-laptops.jpg')",
-        'gaming': "url('../assets/images/image-gaming-growth.jpg')",
+        'pc': "url('./assets/images/image-retro-pcs.jpg')",
+        'laptop': "url('./assets/images/image-top-laptops.jpg')",
+        'gaming': "url('./assets/images/image-gaming-growth.jpg')",
       },
 
       screens: {

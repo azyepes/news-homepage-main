@@ -10,16 +10,17 @@
   <title>Frontend Mentor | News homepage</title>
 </head>
 <body class="w-full h-screen">
-  <header class="w-[90%] h-[auto] mx-auto my-[2rem]">
-    <nav class="flex justify-between content-center">
-      <img class="h-[2.5rem]" src="../assets/images/logo.svg" alt="logo">
-      <button><img class="h-[1.8rem]" src="../assets/images/icon-menu.svg" alt="icon-menu"></button>
-      <ul class="hidden">
-        <li>Home</li>
-        <li>New</li>
-        <li>Popular</li>
-        <li>Trending</li>
-        <li>Categories</li>
+  <header class="w-[90%] mx-auto my-[2rem] flex justify-between content-center">
+    <img class="h-[2.5rem]" src="../assets/images/logo.svg" alt="logo">
+    <button class=""><img class="h-[1.8rem]" src="../assets/images/icon-menu.svg" alt="icon-menu"></button>
+    <nav class="w-[70%] h-full fixed right-0 bg-offWhite hidden">
+      <span class="float-right block pr-[7%]"><img src="../assets/images/icon-menu-close.svg" alt="icon-menu-close"></span>
+      <ul class="overflow-hidden mt-[8rem] pl-[2rem] text-[2rem] font-normal text-veryDarkBlue">
+        <li class="pb-[2rem]">Home</li>
+        <li class="pb-[2rem]">New</li>
+        <li class="pb-[2rem]">Popular</li>
+        <li class="pb-[2rem]">Trending</li>
+        <li class="pb-[2rem]">Categories</li>
       </ul>
     </nav>
   </header>

@@ -45,11 +45,11 @@ header {
 }
 
 main {
-    @apply w-[90%] h-auto m-auto min-w-[60rem] xl:max-w-[105rem]
+    @apply w-[90%] h-auto m-auto max-w-[60rem] xl:max-w-[105rem] mb-5
 }
 
 .main-info {
-    @apply mt-[2rem] mb-[5rem] xl:m-0
+    @apply w-full mt-[2rem] mb-[5rem] xl:m-0
 }
 
 .main-info h1 {

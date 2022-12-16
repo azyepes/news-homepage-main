@@ -2324,9 +2324,10 @@ header {
 
 main {
   margin: auto;
+  margin-bottom: 1.25rem;
   height: auto;
   width: 90%;
-  min-width: 60rem;
+  max-width: 60rem;
 }
 
 @media (min-width: 1440px) {
@@ -2338,6 +2339,7 @@ main {
 .main-info {
   margin-top: 2rem;
   margin-bottom: 5rem;
+  width: 100%;
 }
 
 @media (min-width: 1440px) {

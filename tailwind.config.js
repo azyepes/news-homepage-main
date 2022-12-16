@@ -4,14 +4,14 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'pc': "url('./assets/images/image-retro-pcs.jpg')",
-        'laptop': "url('./assets/images/image-top-laptops.jpg')",
-        'gaming': "url('./assets/images/image-gaming-growth.jpg')",
+        'pc': "url('../assets/images/image-retro-pcs.jpg')",
+        'laptop': "url('../assets/images/image-top-laptops.jpg')",
+        'gaming': "url('../assets/images/image-gaming-growth.jpg')",
       },
 
       screens: {
         sm: '480px',
-        md: '768px',
+        md: '686px',
         lg: '976px',
         xl: '1440px',
       },
